@@ -16,4 +16,4 @@ http://localhost:8000/upload
 - .post, pass a img in postman. See "Captura.jpg" in files
 
 # test
-Only sql has been done, mongoDb and JWT have not been added yet
+Done
