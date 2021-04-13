@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../src/app.js");
+const app = require("../src/server/app.js");
 
 describe("Test the get paths", () => {
 test("users path with not defined url, it should response with an 404 status, not found", () => {
@@ -30,5 +30,6 @@ test("about path with a defined id, it should response with an 200 status, ok", 
   return request(app)
     .get("/about/1")
     .expect(200);
+    
   });
 });
